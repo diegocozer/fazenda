@@ -4,6 +4,18 @@ import Footer from "./Footer";
 import "./Home.css";
 
 export default () => {
+
+  function chamarWpp(){
+  window.open('http://wa.me/5547984274224?text=Olá, gostaria de mais informações sobre a fazenda!')
+  }
+  function abrirInstagram(){
+    window.open('https://www.instagram.com/fazendabenficasc/')
+  }
+  function abrirFacebook(){
+    window.open('https://www.facebook.com/Fazenda-Benfica-116185271075234')
+  }
+
+
   return (
     <div className="conteudo-home">
       <NavBar />
@@ -17,7 +29,7 @@ export default () => {
           <h2 className="sobre">Sobre nós</h2>
         </div>
         <div className="informacoes">
-          <div className="casamento">
+          <div className="casamento casamento1">
             <img
               src="../../../icons/diamante.png"
               alt=""
@@ -31,7 +43,7 @@ export default () => {
               porro. Qui deserunt commodi pariatur nesciunt.
             </p>
           </div>
-          <div className="casamento">
+          <div className="casamento casamento2">
             <img
               src="../../../icons/evento.png"
               alt=""
@@ -45,7 +57,7 @@ export default () => {
               porro. Qui deserunt commodi pariatur nesciunt.
             </p>
           </div>
-          <div className="casamento">
+          <div className="casamento casamento3">
             <img
               src="../../../icons/cavalo.png"
               alt=""
@@ -142,20 +154,23 @@ export default () => {
           <p className="email">
             E-mail: <strong>email@email.com.br</strong>
           </p>
-          <button className="btn-wpp">Fale conosco pelo whatsapp</button>
+          <button className="btn-wpp" onClick={chamarWpp}>Fale conosco pelo whatsapp</button>
 
           <div className="redes-sociais">
             <img
+            onClick={chamarWpp}
               className="facebook"
               src="../../../icons/whatsapp.png"
               alt=""
             />
             <img
+            onClick={abrirInstagram}
               className="instagram"
               src="../../../icons/instagram.png"
               alt=""
             />
             <img
+            onClick={abrirFacebook}
               className="facebook"
               src="../../../icons/facebook.png"
               alt=""

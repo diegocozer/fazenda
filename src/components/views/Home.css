@@ -22,7 +22,7 @@
   left: 20px;
   width: 100%;
   height: 100vh;
-  background-image: url(../../../public/images/Design\ sem\ nome\ \(1\).png);
+  background-image: url(../../../public/images/Design-sem-nome-_1_.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -35,7 +35,7 @@
 .bem-vindo{
   width:20vw;
   height: 20vw;
-  background-image: url("../../../public/images/placafazenda.png");
+  background-image: url(../../../public/images/placafazenda.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -356,7 +356,7 @@ top: 1494px;
   *{margin: 0;}
 
   .fotos-eventos-menu{
-    top:1287px;
+    top:1000px;
     z-index: 1000;
   
     }
@@ -367,20 +367,25 @@ top: 1494px;
       top: 1055px;
       flex-direction: column;
     }
-    .endereco,
+   
   .contato{
     width: 100%;
     position: relative;
-    top: 290px;
+    top: -243px;
 
     
+  }
+
+  .endereco{
+    position: relative;
+    top: -235px;
   }
   .btn-wpp{
     width: 100%;
     font-size: 15px;
   }
   .desenvolvido{
-    top: 1337px;
+    top: 884px;
     flex-direction: column;
   }
   .fazenda,.diego{
@@ -407,11 +412,18 @@ top: 1494px;
   }
   
   
-  .endereco{
-top: 285px;
-  }
+
   .redes-sociais{
     align-items: center;
+  }
+
+  .casamento2{
+    position: relative;
+    top: -125px;
+  }
+  .casamento3{
+    position: relative;
+    top: -289px;
   }
 
 }}

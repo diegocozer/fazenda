@@ -355,7 +355,7 @@
     .contato{
       width: 100%;
       position: relative;
-      top: -100px;
+      top: 93px;
       
     }
     .btn-wpp{
@@ -363,7 +363,7 @@
       font-size: 15px;
     }
     .desenvolvido{
-      top: 1580px;
+      top: 1119px;
       flex-direction: column;
     }
     .fazenda,.diego{
@@ -387,7 +387,10 @@
     .bem-vindo{
       width: 30vh;
       height: 20vh;
+      position: relative;
+      top: 58px;
     }
+   
     
   
   
